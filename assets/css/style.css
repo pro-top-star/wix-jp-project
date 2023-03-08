@@ -162,6 +162,7 @@ input:checked + .box .box-content,
 input:checked + .box .box-close {
 	display: inline-block;
 }
+
 .arrows section .box-title {
 	padding-left: 44px;
 	width: calc(100% - 64px);
