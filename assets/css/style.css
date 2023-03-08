@@ -158,6 +158,7 @@ input:checked + .box {
 input:checked + .box .box-title {
 	border-bottom: 1px solid rgba(0,0,0,.18);
 }
+
 input:checked + .box .box-content,
 input:checked + .box .box-close {
 	display: inline-block;
