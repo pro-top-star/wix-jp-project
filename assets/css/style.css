@@ -150,6 +150,7 @@ header .box-title {
 	cursor: pointer;
 	display: none;
 }
+
 input:checked + .box {
 	height: auto;
 	margin: 16px 0;
