@@ -166,6 +166,7 @@ input:checked + .box .box-close {
 	padding-left: 44px;
 	width: calc(100% - 64px);
 }
+
 .arrows section .box-title:before {
 	position: absolute;
 	display: block;
