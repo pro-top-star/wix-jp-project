@@ -92,15 +92,18 @@ body {
 .accordion {
 	margin: auto;
 }
+
 .accordion input {
 	display: none;
 }
+
 .box {
 	position: relative;
 	background: white;
     height: 64px;
     transition: all .15s ease-in-out;
 }
+
 .box::before {
     content: '';
     position: absolute;
@@ -112,12 +115,14 @@ body {
     pointer-events: none;
     box-shadow: 0 -1px 0 #e5e5e5,0 0 2px rgba(0,0,0,.12),0 2px 4px rgba(0,0,0,.24);
 }
+
 header.box {
 	background: #00BCD4;
 	z-index: 100;
 	cursor: initial;
 	box-shadow: 0 -1px 0 #e5e5e5,0 0 2px -2px rgba(0,0,0,.12),0 2px 4px -4px rgba(0,0,0,.24);
 }
+
 header .box-title {
 	margin: 0;
 	font-weight: normal;
@@ -125,6 +130,7 @@ header .box-title {
 	color: white;
 	cursor: initial;
 }
+
 .box-title {
 	width: calc(100% - 40px);
 	height: 64px;
@@ -134,6 +140,7 @@ header .box-title {
 	cursor: pointer;
 	-webkit-touch-callout: none;-webkit-user-select: none;-khtml-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;
 }
+
 .box-content {
 	width: calc(100% - 40px);
 	padding: 30px 20px;
@@ -141,6 +148,7 @@ header .box-title {
 	color: rgba(0,0,0,.54);
 	display: none;
 }
+
 .box-close {
 	position: absolute;
 	height: 64px;
